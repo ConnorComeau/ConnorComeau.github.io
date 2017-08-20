@@ -9,14 +9,19 @@ html, body {
 
 
 body {
-	background-image:url("images/websitebackground.png");
+	/*background-image:url("images/websitebackground.png");
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	font-family:arial;
+	font-family:arial;*/
 }
 
-
+.top {
+	padding: 100px 0 300px 0;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
 
 
 a {
@@ -49,7 +54,7 @@ a {
 
 #about {
 	background-color: rgba(84,153,230,1);
-	margin: 400px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	padding: 0 0 300px 0;
 	text-align: center;
 	
@@ -95,6 +100,9 @@ a {
 	padding:300px 0 300px 0;
 	margin: 0 0 0 0;
 	text-transform: uppercase;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 }
 
 .eventh1 {
