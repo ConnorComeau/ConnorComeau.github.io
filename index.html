@@ -1,23 +1,47 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!doctype html>
+	<html>
+		<head>
+			<title>Home - Upsetti Spaghetti</title>
+			<link href="css/main.css" rel="stylesheet"/>
+		</head>
+		
+		<div class="toppage">
+			<body>
+				<a href="#about">ABOUT</a>
+				<a href="#event">EVENTS</a>
+				<a href="">CONTACT</a>
+			</body>
+		</div>
+		
+		<div>
+			<body>
+				<h1 class="mainh1">UPSETTI SPAGHETTI</h1>
+				<h2 class="mainh2">Filler Header 2</h2>
+			</body>
+			
+		</div>
+		
+		
+		<div id="about">
+			<body class="aboutbody"> 
+				<h1 class="abouth1">ABOUT US</h1>
+				<h2 class="abouth2">
+					Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+					Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+				</h2>
+			</body>
+		</div>
+		
+		
+		<div id="event">
+			<body class="eventbody">
+				<h1 class="eventh1">EVENTS</h1>
+				<h2 class="eventh2">
+				
+				</h2>
+			</body>
+		</div>
+		
+		
+		
+	</html>

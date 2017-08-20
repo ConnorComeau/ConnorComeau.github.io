@@ -1,0 +1,80 @@
+html, body {
+	margin: 0;
+	padding 0;
+}
+
+body {
+	background-image:url("images/spacebackground.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-family:arial;
+}
+.toppage {
+	text-align: right;
+}
+.mainh1 {
+	color: #0074d9;
+	text-align:center;
+	padding: 150px 0px 0px 0px;
+	font-size: 5vw;
+	font-family: "Helvetica Neue", sans-serif;
+	letter-spacing: -1px;
+	line-height: 1;
+	font-weight: bold;
+}
+.mainh2 {
+	color: white;
+	text-align:center;
+	padding: 1px 0 0 0;
+	font-family:georgia, serif;
+}
+
+#about {
+	background-color: #0074d9;
+	margin: 600px 0px 0px 0px;
+	padding: 0 0 300px 0;
+	text-align: center;
+	
+}
+
+.abouth1 {
+	color: #ffffff;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 62px;
+	font-weight: 800;
+	line-height: 72px;
+	margin: 0 0 24px;
+	text-transform: uppercase;
+}
+
+.abouth2 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 1vw;
+	padding: 1px 0 0 0;
+	font-family: georgia, serif;
+	width: 300px;
+	
+}
+
+#event {
+	background-color: #0074d9;
+	margin: 600px 0 0 0;
+	padding: 0 0 300px 0;
+	text-align: center;
+} 
+
+.eventh1 {
+	color: #ffffff;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 62px;
+	font-weight: 800;
+	line-height: 72px;
+	margin: 0 0 24px;
+	text-transform: uppercase;
+	
+}
+
