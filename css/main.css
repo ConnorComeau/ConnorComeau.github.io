@@ -5,10 +5,6 @@ html, body {
 
 
 
-
-
-
-
 body {
 	background-image:url("images/websitebackground.png");
 	background-size:cover;
@@ -16,9 +12,6 @@ body {
 	background-attachment:fixed;
 	font-family:arial;
 }
-
-
-
 
 
 
@@ -235,6 +228,17 @@ a {
 .contactL {
 	color:white;
 	padding-right:5px;
+}
+
+.eventList {
+	color:white;
+	font-size:22px;
+	display: inline-block;
+	text-align: left;
+	margin:0 auto;
+}
+li {
+	margin-bottom:5px;
 }
 
 .twitter {
