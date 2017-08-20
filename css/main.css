@@ -229,11 +229,12 @@ li {
 }
 
 .twitter-timeline {
-	color:white;
+	/*color:white;
 	font-size:22px;
 	display: inline-block;
 	text-align: left;
-	margin:0 auto;
+	margin:0 auto;*/
+	max-width:200px;
 }
 .link {
 	font-size:22px;
