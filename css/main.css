@@ -94,6 +94,18 @@ a {
 	text-transform: uppercase;
 }
 
+
+ abouth1:after {
+     background: none repeat scroll 0 0 #333;
+     bottom: -10px;
+     content: "";
+     display: block;
+     height: 10px;
+     position: relative;
+     width: 100px;
+ }
+
+
 .abouth2 {
 	color: #333;
 	font-size:22px;
