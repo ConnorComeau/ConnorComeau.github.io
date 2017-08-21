@@ -1,0 +1,35 @@
+html, body {
+	margin: 0;
+	padding 0;
+	
+    background-image: url("images/overpass.png");
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.toppage {
+	position: fixed;
+	width: fill;
+	font-family:Arial, sans-serif;
+	background-color:rgba(0,0,0,0.7);
+	padding:5px;
+	text-align: right;
+	/*border-bottom: 1px solid black;*/
+}
+a {
+	font-size: 1vw;
+	text-decoration: none;
+}
+
+.homeL {
+	color:white;
+	padding-right:5px;
+}
+
+.page {
+	background-color:#999;
+	padding:300px;
+	margin:200px 300px;
+}

@@ -4,8 +4,7 @@
 html, body {
 	margin: 0;
 	padding 0;
-	overflow: scroll;
-    overflow-x: hidden;
+	
     
 }
 
@@ -13,12 +12,17 @@ html, body {
 
 
 
+
+
 .top {
 	padding: 100px 0 300px 0;
+	display:block;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 }
+
+
 
 .toppage {
 	position: fixed;
@@ -41,18 +45,25 @@ a {
 
 .aboutL {
 	color:white;
-	padding-right:5px;
+	padding-right:15px;
 }
 
 .eventL {
 	color:white;
-	padding-right:5px;
+	padding-right:15px;
 }
 
 .contactL {
 	color:white;
-	padding-right:5px;
+	padding-right:15px;
 }
+
+.teamL {
+	color:white;
+	padding-right:15px;
+}
+
+
 
 
 
@@ -157,7 +168,6 @@ a {
 	font-size:22px;
 	display: inline-block;
 	text-align: left;
-	padding-top: 50px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	margin:0 auto;
 }
