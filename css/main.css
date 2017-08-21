@@ -25,8 +25,12 @@ html, body {
 
 @media (max-width: 500px;) {
 	.top {
-		padding 0 0 0 0;
-		width: auto ;
+		background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size : 100% auto
+		
 		max-width: 100% ;
 		height: auto ;
 	}
