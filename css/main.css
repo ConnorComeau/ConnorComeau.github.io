@@ -15,15 +15,20 @@ html, body {
 
 
 .top {
-	padding: 100px 0 300px 0;
+	padding: 100px 0 10% 0;
 	display:block;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	
+	-webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% auto;
+				
 }
 
-@media (max-width: 500px;) {
+/*@media (max-width: 500px;) {
 	.top {
 		background: url(images/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -34,7 +39,7 @@ html, body {
 		max-width: 100% ;
 		height: auto ;
 	}
-}
+}*/
 
 .toppage {
 	position: fixed;
@@ -83,7 +88,8 @@ a {
 
 .logo {
 	display: block;
-	margin: 200px auto 0 auto;
+	margin: 5% auto 0 auto;
+	padding: 0;
 	border-radius: 20%;
   
 	-webkit-transition: -webkit-transform .8s ease-in-out;
