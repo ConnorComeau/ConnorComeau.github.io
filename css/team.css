@@ -2,12 +2,78 @@ html, body {
 	margin: 0;
 	padding 0;
 	
-    background-image: url("images/overpass.png");
+    background-image: url("images/inferno-background.jpg");
 	background-position: center;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 }
+
+
+body {
+	margin: 0 ;
+	padding: 0;
+}
+
+.back-page {
+	margin: 10% 15% 10% 15%;
+	padding:50px 50px 10% 50px;
+	background-color: #333;
+}
+
+.connor {
+	margin:0;
+	padding: 0;
+	size: cover;
+}
+
+
+.connor-pic {
+	display: inline-block;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #0074d9;
+	float: left;
+}
+
+.connorh1 {
+	color: #0074d9;
+	font-family: 'Raleway', sans-serif;
+	font-size: 62px;
+	font-weight: 800;
+	line-height: 72px;
+	padding-left:320px;
+	padding-bottom: 0;
+	margin: 10px;
+	
+}
+
+.connorh2 {
+	color: #fff; 
+	font-size:30px;
+	font-family: "Helvetica",Arial,sans-serif;
+	font-weight: 100;
+	margin: 10px;
+	padding-left: 320px;
+	
+	
+}
+
+.twitterlogo {
+	display: inline-block;
+	padding-left:22px;
+}
+.steamlogo {
+	padding-left: 10px;
+}
+
+
+
+
+
+    /*border-style: solid;
+	border-width: 1px;
+	border-color: #0074d9;*/
 
 .toppage {
 	position: fixed;
@@ -23,13 +89,8 @@ a {
 	text-decoration: none;
 }
 
-.homeL {
+.toppage a {
 	color:white;
 	padding-right:5px;
 }
 
-.page {
-	background-color:#999;
-	padding:300px;
-	margin:200px 300px;
-}
