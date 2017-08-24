@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
 html, body {
 	margin: 0;
-	padding 0;
-	
+	height:100%;
     background-image: url("images/inferno-background.jpg");
 	background-position: center;
 	background-size:cover;
@@ -9,88 +10,121 @@ html, body {
 	background-attachment:fixed;
 }
 
-
 body {
-	margin: 0 ;
-	padding: 0;
-}
-
-.back-page {
-	margin: 10% 15% 10% 15%;
-	padding:50px 50px 10% 50px;
-	background-color: #333;
-}
-
-.connor {
-	margin:0;
-	padding: 0;
-	size: cover;
-}
-
-
-.connor-pic {
-	display: inline-block;
-	border-style: solid;
-	border-width: 3px;
-	border-color: #0074d9;
-	float: left;
-}
-
-.connorh1 {
-	color: #0074d9;
-	font-family: 'Raleway', sans-serif;
-	font-size: 62px;
-	font-weight: 800;
-	line-height: 72px;
-	padding-left:320px;
-	padding-bottom: 0;
-	margin: 10px;
 	
 }
 
-.connorh2 {
-	color: #fff; 
-	font-size:30px;
-	font-family: "Helvetica",Arial,sans-serif;
-	font-weight: 100;
-	margin: 10px;
-	padding-left: 320px;
+.logo {
+	border-radius: 20%;
+  
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+        transition:         transform .8s ease-in-out;
+}
+.logo:hover {
 	
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+#navBar {
+	margin: 0;
+	padding: 5px;
+	width:100%;
+	position: absolute;
 	
-}
-
-.twitterlogo {
-	display: inline-block;
-	padding-left:22px;
-}
-.steamlogo {
-	padding-left: 10px;
-}
-
-
-
-
-
-    /*border-style: solid;
-	border-width: 1px;
-	border-color: #0074d9;*/
-
-.toppage {
-	position: fixed;
-	width: fill;
 	font-family:Arial, sans-serif;
-	background-color:rgba(0,0,0,0.7);
-	padding:5px;
-	text-align: right;
-	/*border-bottom: 1px solid black;*/
+	
+	
+	text-align: left;
+	
+	position: fixed;
+	
 }
+
+
+
+
+
 a {
 	font-size: 1vw;
 	text-decoration: none;
 }
 
-.toppage a {
+#navBar a {
 	color:white;
-	padding-right:5px;
+	padding-right:15px;
 }
 
+h1 {
+	color: #0074d9;
+	font-family: 'Raleway', sans-serif;
+	font-size: 4.5em;
+	font-weight: 800;
+	line-height: 72px;
+	padding-left: 350px;
+	padding-bottom: 0;
+	margin: 10px;
+}
+
+h2 {
+	color: #fff;
+	font-size: 2em;
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-weight: 100;
+	margin: 10px;
+	padding-left: 350px;
+}
+
+
+
+#player-container {
+	padding-top: 50px;
+	line-height: 72px;
+}
+#connor-container {
+	size: cover;
+	margin: 10% 10% 5% 10%;
+	padding: 50px 0 200px 50px;
+	background-color: #333;
+	
+}
+
+.connorpic{
+	margin: 0;
+	padding: 0 !important;
+	
+	border-style: solid;
+	border-width: 3px;
+	border-color: #0074d9;
+	
+	padding-bottom: 1%;
+	float: left;
+}
+
+
+#tnoodle-container {
+	size: cover;
+	margin: 5% 10% 5% 10%;
+	padding: 50px 0 200px 50px;
+	background-color: #333;
+	
+}
+
+.tnoodlepic{
+	margin: 0;
+	padding: 0 !important;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #0074d9;
+	float:left;
+	padding-bottom: 1%;
+}
+
+.twitter {
+	padding-left: 55px;
+}
+
+.steam {
+	padding-left: 10px;
+}

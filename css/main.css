@@ -95,20 +95,7 @@ a {
 	display: block;
 	margin: 5% auto 0 auto;
 	padding: 0;
-	border-radius: 20%;
-  
-	-webkit-transition: -webkit-transform .8s ease-in-out;
-        transition:         transform .8s ease-in-out;
 }
-.logo:hover {
-	
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-
-
-
 
 
 #about {
