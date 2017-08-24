@@ -85,7 +85,7 @@ h2 {
 #connor-container {
 	size: cover;
 	margin: 10% 10% 5% 10%;
-	padding: 50px 0 200px 50px;
+	padding: 50px 0 115px 50px;
 	background-color: #333;
 	
 }
@@ -106,7 +106,7 @@ h2 {
 #tnoodle-container {
 	size: cover;
 	margin: 5% 10% 5% 10%;
-	padding: 50px 0 200px 50px;
+	padding: 50px 0 115px 50px;
 	background-color: #333;
 	
 }
@@ -120,6 +120,61 @@ h2 {
 	float:left;
 	padding-bottom: 1%;
 }
+
+#bond-container {
+	size: cover;
+	margin: 5% 10% 5% 10%;
+	padding: 50px 0 115px 50px;
+	background-color: #333;
+	
+}
+
+.bondpic{
+	margin: 0;
+	padding: 0 !important;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #0074d9;
+	float:left;
+	padding-bottom: 1%;
+}
+
+#yavid-container {
+	size: cover;
+	margin: 5% 10% 5% 10%;
+	padding: 50px 0 115px 50px;
+	background-color: #333;
+	
+}
+
+.yavidpic{
+	margin: 0;
+	padding: 0 !important;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #0074d9;
+	float:left;
+	padding-bottom: 1%;
+}
+
+#apex-container {
+	size: cover;
+	margin: 5% 10% 5% 10%;
+	padding: 50px 0 115px 50px;
+	background-color: #333;
+	
+}
+
+.apexpic{
+	margin: 0;
+	padding: 0 !important;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #0074d9;
+	float:left;
+	padding-bottom: 1%;
+}
+
 
 .twitter {
 	padding-left: 55px;
